@@ -1,0 +1,8 @@
+alias rm='rm -fr'
+alias mv='mv -f'
+alias cp='cp -fr'
+alias t='date'
+alias lt='tree -L 1'
+alias clgr='clg -R'
+alias js='joshuto'
+alias rag='ranger'
