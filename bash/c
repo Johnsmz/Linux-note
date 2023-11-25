@@ -1,0 +1,8 @@
+#!/bin/bash
+
+num=$#
+if((num==0)); then
+/Users/john/.local/cstbin/picoc/picoc -i
+else
+/Users/john/.local/cstbin/picoc/picoc $@
+fi
