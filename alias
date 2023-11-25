@@ -1,3 +1,7 @@
+alias v='vim'
+alias l='ls'
+alias a='cat'
+alias d='cd'
 alias rm='rm -r'
 alias cp='cp -r'
 alias t='date'
