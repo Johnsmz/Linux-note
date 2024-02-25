@@ -26,6 +26,7 @@ Description=<DISCRIPTION>
 Type=simple
 User=<YOUR_USERNAME>
 ExecStart=<PATH_TO_START>
+WorkingDirectory=<PATH_TO_WORKING_DIR>
 Restart=always
 
 [Install]
@@ -79,6 +80,18 @@ panel {
   height: 28px !important;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.05);
 }
+```
+
+## C
+
+### Clang
+#### Problem
+
+> get include path
+
+#### Solution
+```bash
+clang -v -x c -E /dev/null
 ```
 
 ## Python
